@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: expert-search-service 
+  datasource:
+    url: jdbc:h2:mem:adviqo_expert_search_db
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  h2:
+    console:
+       enabled: true
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
